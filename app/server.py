@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/open?id=1O2qwf5DCKfqS6Rz5lJfZ3qn9KQS33g7N'
-export_file_name = 'export.pkl'
+export_file_name = 'moj_model.pkl'
 
 classes = ['freeride_board', 'longboard', 'soft_board']
 path = Path(__file__).parent
