@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1thYfF3Y-D0aDykTkB9KlZFOO7zshVX5-'
+export_file_url = 'https://drive.google.com/open?id=1O2qwf5DCKfqS6Rz5lJfZ3qn9KQS33g7N'
 export_file_name = 'export.pkl'
 
 classes = ['freeride_board', 'longboard', 'soft_board']
